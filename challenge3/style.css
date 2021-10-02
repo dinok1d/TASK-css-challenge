@@ -1,11 +1,25 @@
 /* Add your code in each class */
 .container {
+  background-color: aqua;
+  padding: 10px;
+  overflow-y: scroll;
+  text-align: center;
+  width: 500px;
+  height: 100vh;
 }
 .head {
+  position: sticky;
+  top: 0;
+  background-color: rgb(200, 200, 223);
+  color: black;
+  padding: 10px;
+  text-align: center;
+  height: 10%;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  padding-top: 30px;
 }
 
 /* This is a gift - Does not need editing */

@@ -1,0 +1,25 @@
+.titlemovie {
+  font-family: "ephesis";
+  color: rgb(255, 255, 255);
+  inline-size: block;
+  text-align: center;
+}
+.imagemodification {
+  max-width: 50%;
+  height: 400px;
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 30px;
+}
+
+.background {
+  background-color: blueviolet;
+}
+
+.paraeditor {
+  font-family: "Explora";
+  color: white;
+  font-size: small;
+}

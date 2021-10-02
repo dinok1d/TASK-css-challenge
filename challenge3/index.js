@@ -1,5 +1,7 @@
 function deleteItem(key) {
-  alert(`You are trying to delete item of key ${key}`);
+ people = people.filter((person) => +person.key !== +key)
+  renderList()
+  // alert(`You are trying to delete item of key ${key}`);
 }
 
 /** Don't touch this function
