@@ -1,31 +1,56 @@
 /* Add your code in each class */
 body {
+  background-color: blueviolet;
+  
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
 .movie-card {
+  color: white;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  
 }
 .movie-image {
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
+  object-position: 0% 0%;
+  overflow: hidden;
+  
+  
 }
 .movie-details-container {
 }
 .descriptions {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
 }
 
 /*A gift from us!*/
-.movie-shadow {
+/* .movie-shadow {
   /*
     This gradient was made by this website https://cssgradient.io/
 */
+/* background-image: linear-gradient(1,);
+  z-index: 1;
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.75) 0%,
-    rgba(0, 0, 0, 0) 100%
+  background: rgb(16,19,26);
+  background: linear-gradient(4deg, rgba(16,19,26,1) 0%, rgba(19,12,55,1) 98%);
   );
-}
+} */ */
 .movie-title {
-}
+font-size: 35px;
+font-weight: bolder;}
+
